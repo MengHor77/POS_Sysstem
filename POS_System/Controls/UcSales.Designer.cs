@@ -1,6 +1,6 @@
 ﻿namespace POS_System.Controls
 {
-    partial class panelSales
+    partial class UcSales
     {
         /// <summary> 
         /// Required designer variable.
@@ -56,13 +56,13 @@
             this.labelSales.Text = "💰  Sales";
             this.labelSales.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // panelSales
+            // UcSales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.Controls.Add(this.panelTitlSales);
-            this.Name = "panelSales";
+            this.Name = "UcSales";
             this.Size = new System.Drawing.Size(1095, 861);
             this.panelTitlSales.ResumeLayout(false);
             this.panelTitlSales.PerformLayout();

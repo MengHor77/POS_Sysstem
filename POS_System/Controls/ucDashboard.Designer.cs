@@ -1,6 +1,6 @@
 ﻿namespace POS_System.Controls
 {
-    partial class MainpanelDashboard
+    partial class UcDashboard
     {
         /// <summary> 
         /// Required designer variable.
@@ -39,7 +39,7 @@
             this.panelTitlDashboard.Controls.Add(this.labelTiltlforDashboard);
             this.panelTitlDashboard.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTitlDashboard.Location = new System.Drawing.Point(0, 0);
-            this.panelTitlDashboard.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelTitlDashboard.Margin = new System.Windows.Forms.Padding(4);
             this.panelTitlDashboard.Name = "panelTitlDashboard";
             this.panelTitlDashboard.Size = new System.Drawing.Size(1095, 23);
             this.panelTitlDashboard.TabIndex = 0;
@@ -55,15 +55,15 @@
             this.labelTiltlforDashboard.TabIndex = 0;
             this.labelTiltlforDashboard.Text = "🏠  Dashboard";
             // 
-            // MainpanelDashboard
+            // UcDashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.Controls.Add(this.panelTitlDashboard);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Name = "MainpanelDashboard";
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "UcDashboard";
             this.Size = new System.Drawing.Size(1095, 861);
             this.panelTitlDashboard.ResumeLayout(false);
             this.panelTitlDashboard.PerformLayout();

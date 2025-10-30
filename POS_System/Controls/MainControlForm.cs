@@ -14,7 +14,7 @@ namespace POS_System.Controls
     {
         // Declare UserControls
         private MainpanelDashboard ucDashboard = new MainpanelDashboard();
-        private panelSales ucSales = new panelSales();
+        private UcSales ucSales = new UcSales();
         private panelProducts ucProducts = new panelProducts();
         private UcCustomers ucCustomers = new UcCustomers();
         private panelReports ucReports = new panelReports();

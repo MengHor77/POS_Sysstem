@@ -1,6 +1,6 @@
 ﻿namespace POS_System.Controls
 {
-    partial class panelProducts
+    partial class UcProducts
     {
         /// <summary> 
         /// Required designer variable.
@@ -54,13 +54,13 @@
             this.labelProduct.TabIndex = 0;
             this.labelProduct.Text = "📦  Products";
             // 
-            // panelProducts
+            // UcProducts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.Controls.Add(this.panelProduct);
-            this.Name = "panelProducts";
+            this.Name = "UcProducts";
             this.Size = new System.Drawing.Size(1095, 861);
             this.panelProduct.ResumeLayout(false);
             this.panelProduct.PerformLayout();

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace POS_System.Controls
 {
-    public partial class MainpanelDashboard : UserControl
+    public partial class UcDashboard : UserControl
     {
-        public MainpanelDashboard()
+        public UcDashboard()
         {
             InitializeComponent();
         }

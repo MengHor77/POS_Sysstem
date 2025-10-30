@@ -1,6 +1,6 @@
 ﻿namespace POS_System.Controls
 {
-    partial class panelReports
+    partial class UcReports
     {
         /// <summary> 
         /// Required designer variable.
@@ -54,13 +54,13 @@
             this.labelreport.TabIndex = 0;
             this.labelreport.Text = "📊  Reports";
             // 
-            // panelReports
+            // UcReports
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.Controls.Add(this.panelReport);
-            this.Name = "panelReports";
+            this.Name = "UcReports";
             this.Size = new System.Drawing.Size(1095, 861);
             this.panelReport.ResumeLayout(false);
             this.panelReport.PerformLayout();
