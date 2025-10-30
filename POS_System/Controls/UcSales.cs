@@ -16,5 +16,7 @@ namespace POS_System.Controls
         {
             InitializeComponent();
         }
+
+       
     }
 }

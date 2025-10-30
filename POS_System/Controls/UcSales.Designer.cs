@@ -99,7 +99,14 @@
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.button14 = new System.Windows.Forms.Button();
             this.label14 = new System.Windows.Forms.Label();
-            this.panelIvoice = new System.Windows.Forms.Panel();
+            this.panelInvoice = new System.Windows.Forms.Panel();
+            this.paneltitlIvvoice = new System.Windows.Forms.Panel();
+            this.labelproductSale = new System.Windows.Forms.Label();
+            this.dataGridViewListPro = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panelTitlSales.SuspendLayout();
             this.panelSearch.SuspendLayout();
             this.panelProductList.SuspendLayout();
@@ -134,6 +141,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             this.panel14.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            this.panelInvoice.SuspendLayout();
+            this.paneltitlIvvoice.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewListPro)).BeginInit();
             this.SuspendLayout();
             // 
             // panelTitlSales
@@ -143,7 +153,7 @@
             this.panelTitlSales.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTitlSales.Location = new System.Drawing.Point(0, 0);
             this.panelTitlSales.Name = "panelTitlSales";
-            this.panelTitlSales.Size = new System.Drawing.Size(1207, 23);
+            this.panelTitlSales.Size = new System.Drawing.Size(1536, 23);
             this.panelTitlSales.TabIndex = 0;
             // 
             // labelSales
@@ -168,7 +178,7 @@
             this.panelSearch.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelSearch.Location = new System.Drawing.Point(0, 23);
             this.panelSearch.Name = "panelSearch";
-            this.panelSearch.Size = new System.Drawing.Size(1207, 67);
+            this.panelSearch.Size = new System.Drawing.Size(1536, 67);
             this.panelSearch.TabIndex = 1;
             // 
             // buttonSearch
@@ -211,7 +221,7 @@
             this.panelProductList.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelProductList.Location = new System.Drawing.Point(0, 90);
             this.panelProductList.Name = "panelProductList";
-            this.panelProductList.Size = new System.Drawing.Size(1206, 937);
+            this.panelProductList.Size = new System.Drawing.Size(929, 937);
             this.panelProductList.TabIndex = 3;
             // 
             // flowLayoutPanelProductList
@@ -237,7 +247,7 @@
             this.flowLayoutPanelProductList.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanelProductList.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanelProductList.Name = "flowLayoutPanelProductList";
-            this.flowLayoutPanelProductList.Size = new System.Drawing.Size(1206, 937);
+            this.flowLayoutPanelProductList.Size = new System.Drawing.Size(929, 937);
             this.flowLayoutPanelProductList.TabIndex = 0;
             // 
             // panelCardproduct
@@ -366,7 +376,7 @@
             this.panel6.Controls.Add(this.pictureBox7);
             this.panel6.Controls.Add(this.button6);
             this.panel6.Controls.Add(this.label6);
-            this.panel6.Location = new System.Drawing.Point(903, 3);
+            this.panel6.Location = new System.Drawing.Point(3, 302);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(294, 293);
             this.panel6.TabIndex = 7;
@@ -406,7 +416,7 @@
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(3, 302);
+            this.panel1.Location = new System.Drawing.Point(303, 302);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(294, 293);
             this.panel1.TabIndex = 3;
@@ -446,7 +456,7 @@
             this.panel3.Controls.Add(this.pictureBox4);
             this.panel3.Controls.Add(this.button3);
             this.panel3.Controls.Add(this.label3);
-            this.panel3.Location = new System.Drawing.Point(303, 302);
+            this.panel3.Location = new System.Drawing.Point(603, 302);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(294, 293);
             this.panel3.TabIndex = 5;
@@ -486,7 +496,7 @@
             this.panel4.Controls.Add(this.pictureBox5);
             this.panel4.Controls.Add(this.button4);
             this.panel4.Controls.Add(this.label4);
-            this.panel4.Location = new System.Drawing.Point(603, 302);
+            this.panel4.Location = new System.Drawing.Point(3, 601);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(294, 293);
             this.panel4.TabIndex = 6;
@@ -526,7 +536,7 @@
             this.panel7.Controls.Add(this.pictureBox8);
             this.panel7.Controls.Add(this.button7);
             this.panel7.Controls.Add(this.label7);
-            this.panel7.Location = new System.Drawing.Point(903, 302);
+            this.panel7.Location = new System.Drawing.Point(303, 601);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(294, 293);
             this.panel7.TabIndex = 8;
@@ -566,7 +576,7 @@
             this.panel5.Controls.Add(this.pictureBox6);
             this.panel5.Controls.Add(this.button5);
             this.panel5.Controls.Add(this.label5);
-            this.panel5.Location = new System.Drawing.Point(3, 601);
+            this.panel5.Location = new System.Drawing.Point(603, 601);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(294, 293);
             this.panel5.TabIndex = 7;
@@ -606,7 +616,7 @@
             this.panel9.Controls.Add(this.pictureBox10);
             this.panel9.Controls.Add(this.button9);
             this.panel9.Controls.Add(this.label9);
-            this.panel9.Location = new System.Drawing.Point(303, 601);
+            this.panel9.Location = new System.Drawing.Point(3, 900);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(294, 293);
             this.panel9.TabIndex = 4;
@@ -646,7 +656,7 @@
             this.panel10.Controls.Add(this.pictureBox11);
             this.panel10.Controls.Add(this.button10);
             this.panel10.Controls.Add(this.label10);
-            this.panel10.Location = new System.Drawing.Point(603, 601);
+            this.panel10.Location = new System.Drawing.Point(303, 900);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(294, 293);
             this.panel10.TabIndex = 5;
@@ -686,7 +696,7 @@
             this.panel11.Controls.Add(this.pictureBox12);
             this.panel11.Controls.Add(this.button11);
             this.panel11.Controls.Add(this.label11);
-            this.panel11.Location = new System.Drawing.Point(903, 601);
+            this.panel11.Location = new System.Drawing.Point(603, 900);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(294, 293);
             this.panel11.TabIndex = 6;
@@ -726,7 +736,7 @@
             this.panel12.Controls.Add(this.pictureBox13);
             this.panel12.Controls.Add(this.button12);
             this.panel12.Controls.Add(this.label12);
-            this.panel12.Location = new System.Drawing.Point(3, 900);
+            this.panel12.Location = new System.Drawing.Point(3, 1199);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(294, 293);
             this.panel12.TabIndex = 7;
@@ -766,7 +776,7 @@
             this.panel13.Controls.Add(this.pictureBox14);
             this.panel13.Controls.Add(this.button13);
             this.panel13.Controls.Add(this.label13);
-            this.panel13.Location = new System.Drawing.Point(303, 900);
+            this.panel13.Location = new System.Drawing.Point(303, 1199);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(294, 293);
             this.panel13.TabIndex = 8;
@@ -806,7 +816,7 @@
             this.panel14.Controls.Add(this.pictureBox15);
             this.panel14.Controls.Add(this.button14);
             this.panel14.Controls.Add(this.label14);
-            this.panel14.Location = new System.Drawing.Point(603, 900);
+            this.panel14.Location = new System.Drawing.Point(603, 1199);
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(294, 293);
             this.panel14.TabIndex = 9;
@@ -840,26 +850,97 @@
             this.label14.TabIndex = 0;
             this.label14.Text = "Price";
             // 
-            // panelIvoice
+            // panelInvoice
             // 
-            this.panelIvoice.BackColor = System.Drawing.Color.Gray;
-            this.panelIvoice.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelIvoice.Location = new System.Drawing.Point(1206, 90);
-            this.panelIvoice.Name = "panelIvoice";
-            this.panelIvoice.Size = new System.Drawing.Size(1, 937);
-            this.panelIvoice.TabIndex = 4;
+            this.panelInvoice.BackColor = System.Drawing.Color.Gainsboro;
+            this.panelInvoice.Controls.Add(this.dataGridViewListPro);
+            this.panelInvoice.Controls.Add(this.paneltitlIvvoice);
+            this.panelInvoice.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelInvoice.Location = new System.Drawing.Point(929, 90);
+            this.panelInvoice.Name = "panelInvoice";
+            this.panelInvoice.Size = new System.Drawing.Size(607, 937);
+            this.panelInvoice.TabIndex = 4;
+            // 
+            // paneltitlIvvoice
+            // 
+            this.paneltitlIvvoice.Controls.Add(this.labelproductSale);
+            this.paneltitlIvvoice.Dock = System.Windows.Forms.DockStyle.Top;
+            this.paneltitlIvvoice.Location = new System.Drawing.Point(0, 0);
+            this.paneltitlIvvoice.Name = "paneltitlIvvoice";
+            this.paneltitlIvvoice.Size = new System.Drawing.Size(607, 50);
+            this.paneltitlIvvoice.TabIndex = 0;
+            // 
+            // labelproductSale
+            // 
+            this.labelproductSale.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelproductSale.AutoSize = true;
+            this.labelproductSale.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelproductSale.Location = new System.Drawing.Point(453, 13);
+            this.labelproductSale.Name = "labelproductSale";
+            this.labelproductSale.Size = new System.Drawing.Size(110, 20);
+            this.labelproductSale.TabIndex = 0;
+            this.labelproductSale.Text = "Poduct Sale";
+            this.labelproductSale.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // dataGridViewListPro
+            // 
+            this.dataGridViewListPro.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewListPro.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2,
+            this.Column3,
+            this.Column4});
+            this.dataGridViewListPro.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dataGridViewListPro.Location = new System.Drawing.Point(0, 50);
+            this.dataGridViewListPro.Name = "dataGridViewListPro";
+            this.dataGridViewListPro.RowHeadersWidth = 51;
+            this.dataGridViewListPro.RowTemplate.Height = 24;
+            this.dataGridViewListPro.Size = new System.Drawing.Size(607, 178);
+            this.dataGridViewListPro.TabIndex = 1;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Id";
+            this.Column1.MinimumWidth = 6;
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            this.Column1.Width = 125;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Name";
+            this.Column2.MinimumWidth = 6;
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            this.Column2.Width = 125;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Price";
+            this.Column3.MinimumWidth = 6;
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            this.Column3.Width = 125;
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Amount";
+            this.Column4.MinimumWidth = 6;
+            this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
+            this.Column4.Width = 125;
             // 
             // UcSales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.Controls.Add(this.panelIvoice);
+            this.Controls.Add(this.panelInvoice);
             this.Controls.Add(this.panelProductList);
             this.Controls.Add(this.panelSearch);
             this.Controls.Add(this.panelTitlSales);
             this.Name = "UcSales";
-            this.Size = new System.Drawing.Size(1207, 1027);
+            this.Size = new System.Drawing.Size(1536, 1027);
             this.panelTitlSales.ResumeLayout(false);
             this.panelTitlSales.PerformLayout();
             this.panelSearch.ResumeLayout(false);
@@ -911,6 +992,10 @@
             this.panel14.ResumeLayout(false);
             this.panel14.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            this.panelInvoice.ResumeLayout(false);
+            this.paneltitlIvvoice.ResumeLayout(false);
+            this.paneltitlIvvoice.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewListPro)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -925,7 +1010,7 @@
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.Button buttonSearch;
         private System.Windows.Forms.Panel panelProductList;
-        private System.Windows.Forms.Panel panelIvoice;
+        private System.Windows.Forms.Panel panelInvoice;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanelProductList;
         private System.Windows.Forms.Panel panelCardproduct;
         private System.Windows.Forms.Label labelprice;
@@ -987,5 +1072,12 @@
         private System.Windows.Forms.PictureBox pictureBox15;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Panel paneltitlIvvoice;
+        private System.Windows.Forms.Label labelproductSale;
+        private System.Windows.Forms.DataGridView dataGridViewListPro;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
     }
 }
