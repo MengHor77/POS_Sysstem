@@ -50,7 +50,7 @@
             // 
             // panelSidebar
             // 
-            this.panelSidebar.BackColor = System.Drawing.Color.Teal;
+            this.panelSidebar.BackColor = System.Drawing.Color.Silver;
             this.panelSidebar.Controls.Add(this.tableLayoutPanelSidebar);
             this.panelSidebar.Controls.Add(this.panelLogo);
             this.panelSidebar.Dock = System.Windows.Forms.DockStyle.Left;
