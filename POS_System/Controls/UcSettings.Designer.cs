@@ -39,7 +39,7 @@
             this.panelsetting.Controls.Add(this.labelSetting);
             this.panelsetting.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelsetting.Location = new System.Drawing.Point(0, 0);
-            this.panelsetting.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelsetting.Margin = new System.Windows.Forms.Padding(4);
             this.panelsetting.Name = "panelsetting";
             this.panelsetting.Size = new System.Drawing.Size(1095, 23);
             this.panelsetting.TabIndex = 0;
@@ -62,7 +62,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.Controls.Add(this.panelsetting);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "UcSettings";
             this.Size = new System.Drawing.Size(1095, 861);
             this.panelsetting.ResumeLayout(false);

@@ -100,13 +100,13 @@
             this.button14 = new System.Windows.Forms.Button();
             this.label14 = new System.Windows.Forms.Label();
             this.panelInvoice = new System.Windows.Forms.Panel();
-            this.paneltitlIvvoice = new System.Windows.Forms.Panel();
-            this.labelproductSale = new System.Windows.Forms.Label();
             this.dataGridViewListPro = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.paneltitlIvvoice = new System.Windows.Forms.Panel();
+            this.labelproductSale = new System.Windows.Forms.Label();
             this.panelTitlSales.SuspendLayout();
             this.panelSearch.SuspendLayout();
             this.panelProductList.SuspendLayout();
@@ -142,8 +142,8 @@
             this.panel14.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             this.panelInvoice.SuspendLayout();
-            this.paneltitlIvvoice.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewListPro)).BeginInit();
+            this.paneltitlIvvoice.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelTitlSales
@@ -861,27 +861,6 @@
             this.panelInvoice.Size = new System.Drawing.Size(607, 937);
             this.panelInvoice.TabIndex = 4;
             // 
-            // paneltitlIvvoice
-            // 
-            this.paneltitlIvvoice.Controls.Add(this.labelproductSale);
-            this.paneltitlIvvoice.Dock = System.Windows.Forms.DockStyle.Top;
-            this.paneltitlIvvoice.Location = new System.Drawing.Point(0, 0);
-            this.paneltitlIvvoice.Name = "paneltitlIvvoice";
-            this.paneltitlIvvoice.Size = new System.Drawing.Size(607, 50);
-            this.paneltitlIvvoice.TabIndex = 0;
-            // 
-            // labelproductSale
-            // 
-            this.labelproductSale.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelproductSale.AutoSize = true;
-            this.labelproductSale.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelproductSale.Location = new System.Drawing.Point(453, 13);
-            this.labelproductSale.Name = "labelproductSale";
-            this.labelproductSale.Size = new System.Drawing.Size(110, 20);
-            this.labelproductSale.TabIndex = 0;
-            this.labelproductSale.Text = "Poduct Sale";
-            this.labelproductSale.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // dataGridViewListPro
             // 
             this.dataGridViewListPro.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -929,6 +908,27 @@
             this.Column4.Name = "Column4";
             this.Column4.ReadOnly = true;
             this.Column4.Width = 125;
+            // 
+            // paneltitlIvvoice
+            // 
+            this.paneltitlIvvoice.Controls.Add(this.labelproductSale);
+            this.paneltitlIvvoice.Dock = System.Windows.Forms.DockStyle.Top;
+            this.paneltitlIvvoice.Location = new System.Drawing.Point(0, 0);
+            this.paneltitlIvvoice.Name = "paneltitlIvvoice";
+            this.paneltitlIvvoice.Size = new System.Drawing.Size(607, 50);
+            this.paneltitlIvvoice.TabIndex = 0;
+            // 
+            // labelproductSale
+            // 
+            this.labelproductSale.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelproductSale.AutoSize = true;
+            this.labelproductSale.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelproductSale.Location = new System.Drawing.Point(453, 13);
+            this.labelproductSale.Name = "labelproductSale";
+            this.labelproductSale.Size = new System.Drawing.Size(110, 20);
+            this.labelproductSale.TabIndex = 0;
+            this.labelproductSale.Text = "Poduct Sale";
+            this.labelproductSale.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // UcSales
             // 
@@ -993,9 +993,9 @@
             this.panel14.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             this.panelInvoice.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewListPro)).EndInit();
             this.paneltitlIvvoice.ResumeLayout(false);
             this.paneltitlIvvoice.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewListPro)).EndInit();
             this.ResumeLayout(false);
 
         }
