@@ -13,11 +13,11 @@ namespace POS_System.Controls
     public partial class MainControlForm : Form
     {
         // Declare UserControls
-        private MainpanelDashboard ucDashboard = new MainpanelDashboard();
+        private UcDashboard ucDashboard = new UcDashboard();
         private UcSales ucSales = new UcSales();
-        private panelProducts ucProducts = new panelProducts();
+        private UcProducts ucProducts = new UcProducts();
         private UcCustomers ucCustomers = new UcCustomers();
-        private panelReports ucReports = new panelReports();
+        private UcReports ucReports = new UcReports();
         private UcSettings ucSettings = new UcSettings();
 
        
