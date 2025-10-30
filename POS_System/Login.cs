@@ -32,7 +32,7 @@ namespace POS_System
             {
                 MessageBox.Show("Success!");
                 // Create Dashboard Form
-                POS_System.Controls.Dashboard dashboard = new POS_System.Controls.Dashboard();
+                POS_System.Controls.MainControlForm dashboard = new POS_System.Controls.MainControlForm();
 
                 dashboard.Show(); 
                 this.Hide(); 

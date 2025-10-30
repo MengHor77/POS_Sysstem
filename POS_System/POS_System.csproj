@@ -46,29 +46,47 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controls\Dashboard.cs">
+    <Compile Include="Controls\MainControlForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Controls\Dashboard.Designer.cs">
-      <DependentUpon>Dashboard.cs</DependentUpon>
+    <Compile Include="Controls\MainControlForm.Designer.cs">
+      <DependentUpon>MainControlForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Controls\UcCustomers.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Controls\UcDashboard.cs">
+    <Compile Include="Controls\UcCustomers.Designer.cs">
+      <DependentUpon>UcCustomers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucDashboard.cs">
       <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucDashboard.Designer.cs">
+      <DependentUpon>ucDashboard.cs</DependentUpon>
     </Compile>
     <Compile Include="Controls\UcProducts.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="Controls\UcProducts.Designer.cs">
+      <DependentUpon>UcProducts.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controls\UcReports.cs">
       <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UcReports.Designer.cs">
+      <DependentUpon>UcReports.cs</DependentUpon>
     </Compile>
     <Compile Include="Controls\UcSales.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="Controls\UcSales.Designer.cs">
+      <DependentUpon>UcSales.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controls\UcSettings.cs">
       <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UcSettings.Designer.cs">
+      <DependentUpon>UcSettings.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -78,8 +96,26 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Controls\Dashboard.resx">
-      <DependentUpon>Dashboard.cs</DependentUpon>
+    <EmbeddedResource Include="Controls\MainControlForm.resx">
+      <DependentUpon>MainControlForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcCustomers.resx">
+      <DependentUpon>UcCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucDashboard.resx">
+      <DependentUpon>ucDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcProducts.resx">
+      <DependentUpon>UcProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcReports.resx">
+      <DependentUpon>UcReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcSales.resx">
+      <DependentUpon>UcSales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcSettings.resx">
+      <DependentUpon>UcSettings.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -106,5 +142,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
