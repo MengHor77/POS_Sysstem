@@ -39,8 +39,9 @@
             this.panelReport.Controls.Add(this.labelreport);
             this.panelReport.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelReport.Location = new System.Drawing.Point(0, 0);
+            this.panelReport.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelReport.Name = "panelReport";
-            this.panelReport.Size = new System.Drawing.Size(1095, 23);
+            this.panelReport.Size = new System.Drawing.Size(821, 19);
             this.panelReport.TabIndex = 0;
             // 
             // labelreport
@@ -49,19 +50,21 @@
             this.labelreport.Dock = System.Windows.Forms.DockStyle.Top;
             this.labelreport.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelreport.Location = new System.Drawing.Point(0, 0);
+            this.labelreport.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelreport.Name = "labelreport";
-            this.labelreport.Size = new System.Drawing.Size(94, 20);
+            this.labelreport.Size = new System.Drawing.Size(82, 17);
             this.labelreport.TabIndex = 0;
             this.labelreport.Text = "📊  Reports";
             // 
             // UcReports
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.Controls.Add(this.panelReport);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "UcReports";
-            this.Size = new System.Drawing.Size(1095, 861);
+            this.Size = new System.Drawing.Size(821, 700);
             this.panelReport.ResumeLayout(false);
             this.panelReport.PerformLayout();
             this.ResumeLayout(false);

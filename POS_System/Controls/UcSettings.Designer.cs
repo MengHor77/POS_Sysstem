@@ -51,13 +51,13 @@
             this.labelSetting.Location = new System.Drawing.Point(0, 0);
             this.labelSetting.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelSetting.Name = "labelSetting";
-            this.labelSetting.Size = new System.Drawing.Size(96, 20);
+            this.labelSetting.Size = new System.Drawing.Size(83, 17);
             this.labelSetting.TabIndex = 0;
             this.labelSetting.Text = "⚙️  Settings";
             // 
             // UcSettings
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.Controls.Add(this.panelsetting);

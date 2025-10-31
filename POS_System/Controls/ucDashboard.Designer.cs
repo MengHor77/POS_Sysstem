@@ -56,7 +56,7 @@
             this.labelTiltlforDashboard.Location = new System.Drawing.Point(0, 0);
             this.labelTiltlforDashboard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelTiltlforDashboard.Name = "labelTiltlforDashboard";
-            this.labelTiltlforDashboard.Size = new System.Drawing.Size(117, 20);
+            this.labelTiltlforDashboard.Size = new System.Drawing.Size(102, 17);
             this.labelTiltlforDashboard.TabIndex = 0;
             this.labelTiltlforDashboard.Text = "🏠  Dashboard";
             // 
@@ -101,7 +101,7 @@
             // 
             // UcDashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.Controls.Add(this.dataGridView1);

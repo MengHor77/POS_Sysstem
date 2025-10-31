@@ -53,6 +53,7 @@ namespace POS_System.Controls
         }
         private void labelDashboard_Click(object sender, EventArgs e)
         {
+
             ShowControl(ucDashboard);
         }
 

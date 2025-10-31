@@ -51,8 +51,9 @@
             this.panelProduct.Controls.Add(this.labelProduct);
             this.panelProduct.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelProduct.Location = new System.Drawing.Point(0, 0);
+            this.panelProduct.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelProduct.Name = "panelProduct";
-            this.panelProduct.Size = new System.Drawing.Size(1252, 23);
+            this.panelProduct.Size = new System.Drawing.Size(939, 19);
             this.panelProduct.TabIndex = 0;
             // 
             // labelProduct
@@ -61,8 +62,9 @@
             this.labelProduct.Dock = System.Windows.Forms.DockStyle.Top;
             this.labelProduct.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelProduct.Location = new System.Drawing.Point(0, 0);
+            this.labelProduct.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelProduct.Name = "labelProduct";
-            this.labelProduct.Size = new System.Drawing.Size(102, 20);
+            this.labelProduct.Size = new System.Drawing.Size(88, 17);
             this.labelProduct.TabIndex = 0;
             this.labelProduct.Text = "📦  Products";
             // 
@@ -78,10 +80,11 @@
             this.Column5});
             this.dataGridViewProduct.Dock = System.Windows.Forms.DockStyle.Top;
             this.dataGridViewProduct.Location = new System.Drawing.Point(0, 0);
+            this.dataGridViewProduct.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridViewProduct.Name = "dataGridViewProduct";
             this.dataGridViewProduct.RowHeadersWidth = 51;
             this.dataGridViewProduct.RowTemplate.Height = 24;
-            this.dataGridViewProduct.Size = new System.Drawing.Size(1252, 153);
+            this.dataGridViewProduct.Size = new System.Drawing.Size(939, 124);
             this.dataGridViewProduct.TabIndex = 1;
             // 
             // Column1
@@ -129,9 +132,10 @@
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Controls.Add(this.labelProductList);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 23);
+            this.panel1.Location = new System.Drawing.Point(0, 19);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1252, 40);
+            this.panel1.Size = new System.Drawing.Size(939, 32);
             this.panel1.TabIndex = 2;
             // 
             // labelProductList
@@ -139,9 +143,10 @@
             this.labelProductList.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelProductList.AutoSize = true;
             this.labelProductList.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelProductList.Location = new System.Drawing.Point(599, 3);
+            this.labelProductList.Location = new System.Drawing.Point(449, 2);
+            this.labelProductList.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelProductList.Name = "labelProductList";
-            this.labelProductList.Size = new System.Drawing.Size(99, 18);
+            this.labelProductList.Size = new System.Drawing.Size(83, 15);
             this.labelProductList.TabIndex = 0;
             this.labelProductList.Text = "Product List";
             this.labelProductList.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -151,21 +156,23 @@
             this.panelProductList.BackColor = System.Drawing.Color.White;
             this.panelProductList.Controls.Add(this.dataGridViewProduct);
             this.panelProductList.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelProductList.Location = new System.Drawing.Point(0, 63);
+            this.panelProductList.Location = new System.Drawing.Point(0, 51);
+            this.panelProductList.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelProductList.Name = "panelProductList";
-            this.panelProductList.Size = new System.Drawing.Size(1252, 225);
+            this.panelProductList.Size = new System.Drawing.Size(939, 183);
             this.panelProductList.TabIndex = 3;
             // 
             // UcProducts
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.Controls.Add(this.panelProductList);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panelProduct);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "UcProducts";
-            this.Size = new System.Drawing.Size(1252, 855);
+            this.Size = new System.Drawing.Size(939, 695);
             this.panelProduct.ResumeLayout(false);
             this.panelProduct.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProduct)).EndInit();
