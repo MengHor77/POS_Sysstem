@@ -39,7 +39,7 @@
             this.panelReport.Controls.Add(this.labelreport);
             this.panelReport.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelReport.Location = new System.Drawing.Point(0, 0);
-            this.panelReport.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelReport.Margin = new System.Windows.Forms.Padding(2);
             this.panelReport.Name = "panelReport";
             this.panelReport.Size = new System.Drawing.Size(821, 19);
             this.panelReport.TabIndex = 0;
@@ -62,7 +62,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.Controls.Add(this.panelReport);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "UcReports";
             this.Size = new System.Drawing.Size(821, 700);
             this.panelReport.ResumeLayout(false);

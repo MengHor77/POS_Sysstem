@@ -34,16 +34,16 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Navy;
-            this.panel1.Location = new System.Drawing.Point(68, 72);
+            this.panel1.Location = new System.Drawing.Point(100, 71);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(706, 347);
+            this.panel1.Size = new System.Drawing.Size(920, 483);
             this.panel1.TabIndex = 0;
             // 
             // Staff
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1087, 578);
             this.Controls.Add(this.panel1);
             this.Name = "Staff";
             this.Text = "Staff";

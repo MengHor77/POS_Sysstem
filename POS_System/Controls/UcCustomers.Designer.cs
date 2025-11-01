@@ -39,7 +39,7 @@
             this.panelTitlCustomer.Controls.Add(this.labelCustomer);
             this.panelTitlCustomer.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTitlCustomer.Location = new System.Drawing.Point(0, 0);
-            this.panelTitlCustomer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelTitlCustomer.Margin = new System.Windows.Forms.Padding(2);
             this.panelTitlCustomer.Name = "panelTitlCustomer";
             this.panelTitlCustomer.Size = new System.Drawing.Size(894, 20);
             this.panelTitlCustomer.TabIndex = 0;
@@ -62,7 +62,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.Controls.Add(this.panelTitlCustomer);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "UcCustomers";
             this.Size = new System.Drawing.Size(894, 590);
             this.panelTitlCustomer.ResumeLayout(false);

@@ -71,6 +71,8 @@ namespace POS_System.Controls
 
             // Show selected
             uc.Visible = true;
+            
+            
         }
         private void labelLogout_Click(object sender, EventArgs e)
         {
@@ -86,26 +88,56 @@ namespace POS_System.Controls
         private void labelSales_Click(object sender, EventArgs e)
         {
             ShowControl(ucSales);
+            labelSales.BackColor = Color.White;
+            labelDashboard.BackColor = Color.Transparent;
+            labelProducts.BackColor = Color.Transparent;
+            labelCustomers.BackColor = Color.Transparent;
+            labelReports.BackColor = Color.Transparent;
+            labelSettings.BackColor = Color.Transparent;
         }
 
         private void labelProducts_Click(object sender, EventArgs e)
         {
             ShowControl(ucProducts);
+            labelProducts.BackColor = Color.White;
+            labelReports.BackColor = Color.Transparent;
+            labelSettings.BackColor = Color.Transparent;
+            labelDashboard.BackColor = Color.Transparent;
+            labelCustomers.BackColor = Color.Transparent;
+            labelSales.BackColor = Color.Transparent;
         }
 
         private void labelCustomers_Click(object sender, EventArgs e)
         {
             ShowControl(ucCustomers);
+            labelCustomers.BackColor = Color.White;
+            labelProducts.BackColor = Color.Transparent;
+            labelReports.BackColor = Color.Transparent;
+            labelSettings.BackColor = Color.Transparent;
+            labelDashboard.BackColor = Color.Transparent;
+            labelSales.BackColor = Color.Transparent;
         }
 
         private void labelReports_Click(object sender, EventArgs e)
         {
             ShowControl(ucReports);
+            labelReports.BackColor = Color.White;
+            labelCustomers.BackColor = Color.Transparent;
+            labelProducts.BackColor = Color.Transparent;
+            labelSettings.BackColor = Color.Transparent;
+            labelDashboard.BackColor = Color.Transparent;
+            labelSales.BackColor = Color.Transparent;
         }
 
         private void labelSettings_Click(object sender, EventArgs e)
         {
             ShowControl(ucSettings);
+            labelSettings.BackColor = Color.White;
+            labelDashboard.BackColor = Color.Transparent;
+            labelProducts.BackColor = Color.Transparent;
+            labelCustomers.BackColor = Color.Transparent;
+            labelReports.BackColor = Color.Transparent;
+            labelSales.BackColor = Color.Transparent;
         }
 
        
